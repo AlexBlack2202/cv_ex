@@ -1,0 +1,32 @@
+bài tập 5: Trade-off bias và variance
+
+Là sự đánh đổi giữa bias và variance.
+bias là độ lệch giữa trung bình của mô hình ước lượng được và trung bình thực tế của dữ liệu.
+Độ lệch càng lớn thì mô hình và giá trị thực của ta sẽ càng không khớp nhau.
+
+variance - phương sai là độ phân tán của kết quả ước lượng của mô hình.
+Phương sai càng lớn thì giá trị càng xa với mô hình
+
+Mục tiêu variance và bias càng bé càng tốt. 
+Thực tế: tập dữ liệu input không đại diện hết tất cả các khả năng xảy ra.
+
+Mô hình lệch nhỏ, phương sai lớn -> càng gần với thực tế, nhưng khả năng phân tán lớn nên có kết quả không mong muốn xa với thực tế
+Mô hình lệch lớn, phương sai nhỏ -> giá trị dự đoán xa với thực tế.
+
+=> mong muốn đâu đó cân bằng được giữa độ lệch và phương sai. 
+Mô hình mà đạt được độ lệch không quá lớn thì kết quả có khả năng lệch ít hơn và phương sai không quá lớn 
+giúp cho phạm vi dự đoán hẹp lại => kết quả gần với mong đợi hơn.
+
+Bài tập 6: What is the difference between supervised and unsupervised machine learning
+
+supervised: dữ liệu có nhãn
+unsupervised: dữ liệu không có nhãn
+
+Bài 6: How is KNN different from k-means clustering?
+
+
+KNN: Xét K thằng gần điểm đang xét nhất, xem tần suất xuất hiện và ra quyết định.
+Là thuật toán thuộc nhóm supervised (dữ liệu phải có nhãn)
+
+k-means: Tính khoảng cách điểm đang xét với K tâm, coi xem gần tâm nào thì điểm thuộc cụm đó.
+Là thuật toán thuộc nhóm unsupervised (dữ liệu không cần nhãn)
